@@ -50,30 +50,29 @@ table {
 	border-spacing: 0;
 }
 /*______________________________________________________________________________________________*/
-.bg-orange {
-    background: orange;
-}
-.bg-yellow {
-    background: yellow;
-}
-.bg-green {
-    background: green;
-}
+
 
 .box {
     width: 1200px;
     margin: 20px auto;
+    background: aquamarine;
 }
 
 
-/* i-block */
-.d-inline-block {
-    display: inline-block;
+/* float */
+.float {
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
 }
 
 /* outline */
 .outline {
-    outline: 2px solid red;
+    outline: 2px solid aquamarine;
 }
 
 /* fz */
